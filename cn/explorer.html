@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>BCX | BitcoinX - Insight实例，BitcoinX区块浏览器</title>
+<meta name="keywords" content="BitcoinX - Insight实例，BitcoinX区块浏览器" />
+<meta name="description" content="BitcoinX Insight实例，BitcoinX区块浏览器 - BitcoinX Insight实例，是一个BitcoinX区块浏览器和Web应用程序服务，用于提供Insight UI。">
+<meta name="author" content="BitcoinX Foundation">
+
+<!-- Mobile view -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+<link rel="shortcut icon" href="../images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../js/bootstrap/bootstrap.min.css">
+
+<!-- Google fonts  -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<!-- Template's stylesheets -->
+<link rel="stylesheet" href="../js/megamenu/stylesheets/screen.css">
+<link rel="stylesheet" href="../css/theme-default.css" type="text/css">
+<link rel="stylesheet" href="../js/loaders/stylesheets/screen.css">
+<link rel="stylesheet" href="../css/corporate.css" type="text/css">
+<link rel="stylesheet" href="../css/shortcodes.css" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../fonts/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+<link rel="stylesheet" href="../fonts/et-line-font/et-line-font.css">
+<link href="../js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="../js/owl-carousel/owl.theme.css" rel="stylesheet">
+<link href="../js/tabs/css/responsive-tabs.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Template's stylesheets END -->
+
+<!--[if lt IE 9]>
+<script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KMGG5DS');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMGG5DS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="wrapper-boxed">
+  <div class="site-wrapper">
+    <div class="topbar section-primary topbar-padding">
+      <div class="container">
+        <div class="row nopadding">
+          <div class="topbar-left-items">
+
+            <ul class="toplist toppadding pull-left roboto" id="ticker">
+              <li class="rightl"><strong><span class="text-yellow">BCX:</span></strong> &#36;<span class="price">-</span></li>
+              <li class="rightl">/</li>
+              <li class="rightl"><strong>1H</strong> <span class="percent_change_1h">-</span>%</li>
+              <li class="rightl">/</li>
+              <li class="rightl"><strong>24H</strong> <span class="percent_change_24h">-</span>%</li>
+            </ul>
+
+          </div>
+          <!--end left-->
+
+          <div class="topbar-right-items pull-right">
+
+            <span class="custom-dropdown small">
+                <select onChange="window.location.href=this.value">
+                    <option value="#">切换语言</option>
+                    <option value="https://volarisnet.nl/bcx/explorer.html">English</option>
+                    <option value="https://volarisnet.nl/bcx/cn/explorer.html">简体中文</option>
+                    <option value="https://volarisnet.nl/bcx/cn/cn/explorer.html">繁體中文</option>
+                    <option value="https://volarisnet.nl/bcx/jp/explorer.html">日本語</option>
+                    <option value="https://volarisnet.nl/bcx/ko/explorer.html">한국어</option>
+                    <option value="https://volarisnet.nl/bcx/ru/explorer.html">русский</option>
+                </select>
+            </span>
+
+            <ul class="toplist toppadding">
+              <li><a target="blank" href="https://github.com/BitcoinX-project/BitcoinX/releases"><i class="fab fa-github"></i></a></li>
+              <li><a target="blank" href="https://twitter.com/bcx_team"><i class="fab fa-twitter"></i></a></li>
+              <li><a target="blank" href="https://www.facebook.com/coinx.bit.9"><i class="fab fa-facebook"></i></a></li>
+              <li><a target="blank" href="https://www.reddit.com/user/bcx_org/"><i class="fab fa-reddit"></i></a></li>
+              <li><a target="blank" href="https://t.me/BCX_EN"><i class="fab fa-telegram-plane"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- end top bar -->
+
+    <div class="col-md-12 nopadding">
+      <div class="header-section white style1 links-dark menu-shadow pin-style">
+        <div class="container">
+          <div class="mod-menu">
+            <div class="row nopadding">
+              <div class="col-sm-3 nopadding">
+
+                  <a href="index.html" class="logo style-2 mar-3"> <img src="../images/logo/logo.svg" width="189" height="66" alt="BCX Logo"></a>
+
+                </div>
+              <div class="col-sm-9 nopadding">
+                <div class="main-nav">
+                  <ul class="nav navbar-nav top-nav">
+                    <li class="visible-xs menu-icon"> <a href="javascript:void(0)" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false"> <i aria-hidden="true" class="fa fa-bars"></i><br><span>menu</span></pan></a></li>
+                  </ul>
+                  <div id="menu" class="collapse">
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">首页</a></li>
+                      <li><a href="mainnet.html">主网</a></li>
+                      <li><a class="active" href="explorer.html">浏览器</a></li>
+                      <li><a href="documentation.html">文档</a></li>
+                      <li><a href="exchanges.html">交易所</a></li>
+                      <li><a href="contributors.html">志愿者</a></li>
+                      <li><a href="about.html">关于</a></li>
+                    </ul>
+
+                    <div class="visible-xs language-switch">
+                      <div class="dropdown">
+                        <a id="changeLanguage" role="button" data-toggle="dropdown" data-target="#" href="#" class="link-hover">切换语言</a>
+                        <div role="menu" aria-labelledby="changeLanguage" class="dropdown-content">
+                          <a href="https://volarisnet.nl/bcx/explorer.html" class="link">English</a>
+                          <a href="https://volarisnet.nl/bcx/cn/explorer.html" class="link">简体中文</a>
+                          <a href="https://volarisnet.nl/bcx/cn/cn/explorer.html" class="link">繁體中文</a>
+                          <a href="https://volarisnet.nl/bcx/jp/explorer.html" class="link">日本語</a>
+                          <a href="https://volarisnet.nl/bcx/ko/explorer.html" class="link">한국어</a>
+                          <a href="https://volarisnet.nl/bcx/ru/explorer.html" class="link">русский</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end menu-->
+    </div>
+    <!--end menu-->
+
+<div class="clearfix"></div>
+
+<section class="page-title-5 text-center">
+  <div class="container">
+    <div class="row">
+
+    	<h2 class="font-weight-8 text-yellow uppercase animate-in">浏览器</h2>
+        <h6 class="font-weight-4 less1 text-white animate-in">BitcoinX Insight实例，BitcoinX区块浏览器</h6>
+
+    </div>
+  </div>
+</section>
+
+<div class="clearfix"></div>
+
+<section class="sec-padding">
+  <div class="container">
+  <div class="row">
+
+      <div class="col-md-8">
+
+        <div class="col-md-12 col-sm-12 col-xs-12 margin-bottom">
+          <h4 class="lowercase font-weight-7">BitcoinX浏览器</h4>
+
+          <p>BitcoinX Insight实例，是一个BitcoinX区块浏览器和Web应用程序服务，用于提供Insight UI。</p>
+          <p><a href="https://bitpay.com/" target="_blank">最初由bitpay编写</a>。</p>
+          <p class="padding-bottom-2">浏览相关源码 <a href="https://github.com/ho1to/bitcore" target="_blank">和安装包</a></p>
+          <br>
+          <a class="but-stbutton-3 roboto padding-top-7 font-weight-7 lowercase" href="https://bcx.info/" target="_blank">导航到BitcoinX区块浏览器</a>
+
+        </div>
+        <!--end col-->
+
+        <div class="clearfix margin-bottom-5"></div>
+        <!--end col-->
+
+      </div>
+      <!-- end left col -->
+
+      <div class="col-md-4 col-sm-12 col-xs-12 section-white">
+        <div class="pages-sidebar-item">
+          <h5 class="uppercase font-weight-7 pages-sidebar-item-title">入门</h5>
+            <ul class="pages-sidebar-links">
+              <li><a href="documentation.html">文档</a></li>
+              <li><a href="what-is-bitcoinx.html">什么是BitcoinX?</a></li>
+              <li><a href="mining-documentation.html">挖矿文档</a></li>
+              <li><a href="for-organisations.html">对于组织</a></li>
+              <li><a href="for-developers.html">对于开发人员</a></li>
+              <li><a href="exchanges.html">交易所</a></li>
+              <li><a href="faqs.html">常问问题</a></li>
+            </ul>
+        </div>
+        <!--end item holder-->
+
+      </div>
+      <!--end right col-->
+
+  </div>
+  </div>
+</section>
+
+<div class="clearfix"></div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3 col-sm-3  animate-in" data-anim-type="fade-in-left" data-anim-delay="250">
+            <div class="item-holder margin-bottom-2">
+
+                <div class="qlinks">
+
+                  <a href="index.html" class="logo style-2 mar-3"> <img src="../images/logo/logo.svg" width="120" alt="BCX Logo"></a><br><br>
+
+                <ul>
+                  <li><a href="about.html"><i class="fa fa-angle-right"></i>我们将不断对BCX进行完善，打造真正适用于未来社会的比特币系统，成就比特币网络的无限可能。</a></li>
+                  <li><a href="faqs.html"><i class="fa fa-angle-right"></i>来自社区的常见问题</a></li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-3 col-sm-3  animate-in" data-anim-type="fade-in-left" data-anim-delay="250">
+            <div class="item-holder margin-bottom-2">
+              <h3 class="title ">有用的链接</h3>
+              <div class="title_line"></div>
+              <div class="qlinks">
+                <ul>
+                  <li><a href="what-is-bitcoinx.html">什么是BitcoinX?</a></li>
+                  <li><a href="mining-documentation.html">挖掘文档</a></li>
+                  <li><a href="for-organisations.html">对于组织</a></li>
+                  <li><a href="for-developers.html">对于开发人员</a></li>
+                  <li><a href="faqs.html">常问问题</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-3 col-sm-3  animate-in" data-anim-type="fade-in-left" data-anim-delay="250">
+            <div class="item-holder margin-bottom-2">
+              <h3 class="title ">最新消息</h3>
+              <div class="title_line"></div>
+              <div class="qlinks">
+                <ul>
+                  <li><a target="_blank" href="https://twitter.com/bcx_team">查看最新推文</a></li>
+                  <li><a target="_blank" href="https://www.reddit.com/r/BCXofficial/">查看Reddit</a></li>
+                  <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=4500409.0">查看Bitcointalk</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-3 col-sm-3 animate-in" data-anim-type="fade-in-right" data-anim-delay="250">
+            <div class="item-holder margin-bottom-2">
+              <h3 class="title">联系我们</h3>
+              <div class="title_line"></div>
+                <span class="address">电子邮件: hellobcx@mail.com</span>
+                <span class="address">电报群：@BCXTeam</span>
+              </div>
+          </div>
+          <!--end item-->
+
+          <div class="divider_line"></div>
+          <!--end item-->
+
+          <div class="col-md-8 col-sm-8 animate-in no-padding-left" data-anim-type="fade-in-up" data-anim-delay="250">
+            <div class="item-holder">
+              <div class="quick_links_holder ">
+                <ul class="quick_links ">
+                  <li><a class="active" href="index.html">首页</a></li>
+                  <li><a href="mainnet.html">主网</a></li>
+                  <li><a href="explorer.html">浏览器</a></li>
+                  <li><a href="documentation.html">文档</a></li>
+                  <li><a href="exchanges.html">交易所</a></li>
+                  <li><a href="contributors.html">志愿者</a></li>
+                  <li><a href="about.html">关于</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-md-4 col-sm-4 col-xs-4 text-right respo no-padding-right">
+            <ul class="footer-social-icons round">
+              <li><a target="blank" href="https://github.com/BitcoinX-project/BitcoinX/releases"><i class="fab fa-github"></i></a></li>
+              <li><a target="blank" href="https://twitter.com/bcx_team"><i class="fab fa-twitter"></i></a></li>
+              <li><a target="blank" href="https://www.facebook.com/coinx.bit.9"><i class="fab fa-facebook"></i></a></li>
+              <li><a target="blank" href="https://www.reddit.com/user/bcx_org/"><i class="fab fa-reddit"></i></a></li>
+              <li><a target="blank" href="https://t.me/BCX_EN"><i class="fab fa-telegram-plane"></i></a></li>
+            </ul>
+        </div>
+        <!--end item-->
+
+        </div>
+      </div>
+    </div>
+    <!--end fotter-->
+    <div class="clearfix"></div>
+
+    <div class="copyrights">
+      <div class="container text-left no-padding-left"><span>版权所有&copy;2018 BitcoinX Foundation</span> - 版权所有</div>
+    </div>
+    <!--end copyrights-->
+
+    <div class="clearfix"></div>
+    <!-- end section -->
+
+    <a href="#" class="scrollup"></a><!-- end scroll to top of the page-->
+
+  </div>
+  <!--end site wrapper-->
+</div>
+<!--end wrapper boxed-->
+
+<!-- Scripts -->
+<script src="../js/jquery/jquery.js"></script>
+<script src="../js/bootstrap/bootstrap.min.js"></script>
+<script src="../js/less/less.min.js" data-env="development"></script>
+<!-- Scripts END -->
+
+<!-- Template scripts -->
+<script src="../js/animations/js/animations.min.js"></script>
+<script src="../js/animations/js/appear.min.js"></script>
+<script src="../js/functions/functions.js"></script>
+<script src="../js/ticker/ticker.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#ticker').ticker({symbolId: '2281'})
+  });
+</script>
+
+</body>
+</html>
