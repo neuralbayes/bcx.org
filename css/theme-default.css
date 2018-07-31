@@ -98,7 +98,8 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-		width:100%;
+	width:100%;
+	z-index: 991;
 }
 
 .dropdown.open .dropdown-content{

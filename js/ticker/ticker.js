@@ -4,7 +4,7 @@
 // Improvements by contributor Denis
 // Created: 13/06/2018
 // Date: 13/06/2018
-// Website: http://bcx.org
+// Website: http:/.org
 // Description: Shows the current price of BitcoinX on the page.
 //
 
